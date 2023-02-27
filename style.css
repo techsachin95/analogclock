@@ -1,0 +1,126 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.clock{
+    border: 1px solid black;
+    height: 250px;width: 250px;
+    border-radius: 50%;
+    position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);
+}
+.hour,.minute,.second{
+    background-color: black;transform-origin: bottom;
+    position: absolute;border-radius: 0.5rem;
+}
+.hour{
+    height: 26%;
+width: 4%;
+top: 67px;
+left: 118px;
+}
+.minute{
+    height: 33%;
+width: 3%;
+left: 120px;
+top: 49px;
+opacity: .6;
+}
+.second{
+    height: 40%;
+width: 2%;
+left: 122px;
+top: 31px;
+opacity: .6;
+}
+.h12{
+    position: absolute;
+    left: 115px;
+    z-index: 9999;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h1{
+    position: absolute;
+    left: 175px;
+    z-index: 9999;
+    font-weight: 800;
+    font-size: 1.2rem;
+    top: 19px;
+}
+.h2{
+    position: absolute;
+    left: 212px;
+    z-index: 9999;
+    font-weight: 800;
+    font-size: 1.2rem;
+    top: 59px;
+}
+.h3{
+    position: absolute;
+    left: 230px;
+    z-index: 9999;
+    top: 109px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h4{
+    position: absolute;
+    left: 215px;
+    z-index: 9999;
+    top: 163px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h5{
+    position: absolute;
+    left: 176px;
+    z-index: 9999;
+    top: 205px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h6{
+    position: absolute;
+    left: 120px;
+    z-index: 9999;
+    top: 223px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h7{
+    position: absolute;
+    left: 59px;
+    z-index: 9999;
+    top: 205px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h8{
+    position: absolute;
+    left: 24px;
+    z-index: 9999;
+    top: 162px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.h9{
+    position: absolute;
+    z-index: 9999;
+     top: 109px;
+    font-weight: 800;
+    font-size: 1.2rem;
+left: 10px;
+}
+.h10{
+    position: absolute;
+    z-index: 9999;
+     top: 60px;
+    font-weight: 800;
+    font-size: 1.2rem;
+left: 20px;
+}
+.h11{
+    position: absolute;
+    z-index: 9999;
+     top: 22px;
+    font-weight: 800;
+    font-size: 1.2rem;
+left: 56px;
+}
